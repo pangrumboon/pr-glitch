@@ -1,0 +1,32 @@
+body {
+  background-color: blue;
+
+  display: flex; /* Enables Flexbox on the body */
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+}
+
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+button:hover {
+  background-color:yellow;
+}
